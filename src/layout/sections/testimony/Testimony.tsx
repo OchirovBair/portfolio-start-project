@@ -21,7 +21,7 @@ export const Testimony = () => {
     );
 };
 
-const StyledTestimony = styled.div`
+const StyledTestimony = styled.section`
     background-color: #ded87c;
     height: 50vh;
 `

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {SectionTitle} from '../../../components/SectionTitle';
-import {Button} from '../../../components/button/Button';
+import {Button} from '../../../components/Button';
 
 
 
