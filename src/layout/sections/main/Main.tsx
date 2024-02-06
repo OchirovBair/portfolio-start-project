@@ -60,7 +60,7 @@ const MainTitle = styled.h1`
 `
 
 const Name = styled.h2`
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin: 10px 0;

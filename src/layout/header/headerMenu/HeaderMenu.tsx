@@ -42,7 +42,7 @@ const StyledHeaderMenuNav = styled.nav`
 `
 
 const Link = styled.a`
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
