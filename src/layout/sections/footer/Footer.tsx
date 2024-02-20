@@ -4,6 +4,7 @@ import {FlexWrapper} from '../../../components/FlexWrapper';
 import {Icon} from '../../../components/icons/Icon';
 import {theme} from '../../../styles/Theme';
 import {Container} from '../../../components/Container';
+import {font} from "../../../styles/Common";
 
 
 export const Footer = () => {
@@ -55,10 +56,9 @@ const CopyRight = styled.small`
 `
 
 const Name = styled.span`
+    ${font({family: "'Josefin Sans', sans-serif", weight: 700, Fmax: 22, Fmin: 16})}
+    
     color: ${theme.colors.font};
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
     letter-spacing: 3px;
 `
 
