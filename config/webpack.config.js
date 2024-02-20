@@ -206,7 +206,7 @@ module.exports = function (webpackEnv) {
       path: paths.appBuild,
       // Add /* filename */ comments to generated require()s in the output.
       pathinfo: isEnvDevelopment,
-      // There will be one main bundle, and one file per asynchronous chunk.
+      // There will be one mainSection bundle, and one file per asynchronous chunk.
       // In development, it does not produce real files.
       filename: isEnvProduction
         ? 'static/js/[name].[contenthash:8].js'
@@ -349,7 +349,7 @@ module.exports = function (webpackEnv) {
         {
           // "oneOf" will traverse all following loaders until one will
           // match the requirements. When no loader matches it will fall
-          // back to the "file" loader at the end of the loader list.
+          // back to the "file" loader at the end of the loader statisticsList.
           oneOf: [
             // TODO: Merge this config once `image/avif` is in the mime-db
             // https://github.com/jshttp/mime-db
