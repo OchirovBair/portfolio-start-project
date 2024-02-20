@@ -7,7 +7,6 @@ import {Work} from './work/Work';
 import photo1 from '../../../assets/images/project-1_1.webp'
 import photo2 from '../../../assets/images/project-2_1.webp'
 import {Container} from '../../../components/Container';
-import {theme} from "../../../styles/Theme";
 
 const worksItems = ['all', 'landing page', 'react', 'spa']
 
@@ -23,7 +22,7 @@ export const Works = () => {
                           src={photo1}
                     />
                     <Work title={'Timer'}
-                          text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                          text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit ut labore et dolore magna aliqua Ut enim'}
                           src={photo2}
                     />
                 </FlexWrapper>

@@ -36,14 +36,12 @@ const MainFlexWrapper = styled(FlexWrapper)`
     @media (max-width: 1000px) {
         justify-content: center;
         flex-direction: column;
-        gap: 65px;
     }
 `
 
 const PhotoWrapper = styled.div`
     position: relative;
     z-index: 0;
-    //margin-top: 65px;
     
     &::before {
         content: '';
@@ -66,6 +64,10 @@ const PhotoWrapper = styled.div`
         // @media ${theme.media.mobile} {
         //     margin-top: 65px;
         // }
+    }
+
+    @media ${theme.media.mobile} {
+        margin-top: 65px;
     }
 `
 
