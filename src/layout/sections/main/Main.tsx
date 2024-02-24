@@ -66,7 +66,7 @@ const PhotoWrapper = styled.div`
         // }
     }
 
-    @media ${theme.media.mobile} {
+    @media (max-width: 1000px) {
         margin-top: 65px;
     }
 `

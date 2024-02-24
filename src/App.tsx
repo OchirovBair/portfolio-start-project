@@ -7,12 +7,13 @@ import {Contacts} from './layout/sections/contacts/Contacts';
 import React from 'react';
 import {Slogan} from './layout/sections/slogan/Slogan';
 import {Footer} from './layout/sections/footer/Footer';
+import {Header} from "./layout/header/Header";
 
 
 function App() {
     return (
         <div className="App">
-            {/*<Header/>*/}
+            <Header/>
             <Main/>
             <Skills/>
             <Works/>
